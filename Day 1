@@ -21,7 +21,7 @@ class Solution {
     return maxwealth;
     }
 }
-)
+3)
 class Solution {
     public boolean threeConsecutiveOdds(int[] arr) {
         for(int i=0;i<arr.length-2;i++){
