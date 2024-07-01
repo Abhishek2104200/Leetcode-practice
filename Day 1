@@ -1,8 +1,6 @@
 1)printing the sum of 1D array(python)
 class Solution(object):
     def runningSum(self, nums):
-        
-        """
         for i in range(1,len(nums)):
             nums[i]+=nums[i-1]
         return nums
@@ -20,8 +18,6 @@ class Solution {
             }
         maxwealth=Math.max(maxwealth,customerwealth);
         }
-        
-    
     return maxwealth;
     }
 }
