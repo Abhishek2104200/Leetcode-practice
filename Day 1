@@ -8,3 +8,22 @@ class Solution(object):
         for i in range(1,len(nums)):
             nums[i]+=nums[i-1]
         return nums
+
+2)richest customer wealth (java)
+class Solution {
+    public int maximumWealth(int[][] accounts) {
+        int maxwealth=0;
+        
+        for (int[] customer : accounts){
+            int customerwealth=0;
+            
+            for(int banks:customer){
+                customerwealth+=banks;
+            }
+        maxwealth=Math.max(maxwealth,customerwealth);
+        }
+        
+    
+    return maxwealth;
+    }
+}
