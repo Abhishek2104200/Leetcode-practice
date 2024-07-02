@@ -15,7 +15,7 @@ class Solution {
         return i;
     }
 }
-2)
+2)Intersection of Two Arrays II
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         int l1 = nums1.length;
