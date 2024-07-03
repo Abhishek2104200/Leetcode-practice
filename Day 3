@@ -1,11 +1,8 @@
-1)Minimum Difference Between Largest and Smallest Value in Three Moves
+1)Minimum Difference Between Largest and Smallest Value in Three Moves(Java)
 class Solution {
     public int minDifference(int[] nums) {
         int numsSize = nums.length;
-
-        // If the array has 4 or fewer elements, return 0
         if (numsSize <= 4) return 0;
-
         Arrays.sort(nums);
 
         int minDiff = Integer.MAX_VALUE;
