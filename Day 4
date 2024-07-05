@@ -1,4 +1,4 @@
-1)
+1)Find the Minimum and Maximum Number of Nodes Between Critical Points
 class Solution {
 
     public int[] nodesBetweenCriticalPoints(ListNode head) {
