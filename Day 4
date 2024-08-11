@@ -3,7 +3,6 @@ class Solution {
 
     public int[] nodesBetweenCriticalPoints(ListNode head) {
         int[] result = { -1, -1 };
-
         // Initialize minimum distance to the maximum possible value
         int minDistance = Integer.MAX_VALUE;
 
